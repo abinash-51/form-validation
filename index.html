@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Haddy</title>
+
+    <!-- icon start-->
+    <link rel = "icon" href = 
+    https://www.davbathinda.com/wp-content/uploads/2018/03/cropped-logo_white.png
+          type = "image/x-icon">
+    <!-- icon end-->
+
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <title>Task</title>
+<style>
+.carousel-inner div img{
+     width: 100%;
+     height: 500;
+     overflow: hidden;
+  }
+</style>
+  </head>
+  <body>
+  <!-- navbar start  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Haddy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+
+
+  <!-- slider start  -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1649000942866-e89fd06ab3d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="500px" alt="img1">
+      </div>
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1649000942866-e89fd06ab3d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="500px" alt="img1">
+      </div>
+    </div>
+  </div>
+<!-- slider end  -->
+
+<!-- form validation  -->
+<div class="container  my-3">
+    <div class="row ">
+        <div class="col-md-6 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Fill the Form </h2>
+                </div>
+                <div class="card-body">
+                    <form class="row g-3 needs-validation my-2 mx-auto" novalidate >
+                        <div class="col-md-6">
+                          <label for="validationCustomUsername"  class="form-label">Email</label>
+                          <div class="input-group has-validation">
+                            <input type="email" class="form-control" id="email" aria-describedby="inputGroupPrepend" maxlength="25" required required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                            </div>
+                          </div>
+                      
+                        <div class="col-md-6">
+                            <label for="validationCustomUsername" class="form-label">Mobile no</label>
+                            <div class="input-group has-validation">
+                              <input type="text" class="form-control" id="mobile" aria-describedby="inputGroupPrepend" required required maxlength="10" pattern="\d{10}" oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g,'$1');">
+                            </div>
+                        </div>
+                      
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="submit" id="submit">Submit form</button>
+                        </div>
+                      </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- form validation end  -->
+
+
+<!-- footer start  -->
+
+<div class="footer" style="height: 20vh;">
+<footer class="text-center text-lg-start bg-light text-muted mt-4" >
+  <!-- Section: Social media -->
+  <section 
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  </section> 
+
+    <div>
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 primary ">
+            <i class="fas fa-gem me-3"></i>MoGhara HomeServices 
+          </h6>
+          <p class="primary">
+           We provide quality services to our customer 
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 primary ">
+            Goto
+          </h6>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">Home</a>
+          </p>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">About</a>
+          </p>
+          <p class="primary">
+            <a href="#!" class="text-reset primary"> Concern</a>
+          </p>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">Privacy policy</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 primary ">
+            Valuable
+          </h6>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">Pricing</a>
+          </p>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">Settings</a>
+          </p>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">Orders</a>
+          </p>
+          <p class="primary">
+            <a href="#!" class="text-reset primary">Reviews</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 primary">
+            Contact
+          </h6>
+          <p class="primary"><i class="fas fa-home me-3"></i> India, Odisha</p>
+          <p class="primary">
+            <i class="fas fa-envelope me-3"></i>
+          MoGhara Official
+          </p>
+          <p class="primary"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p class="primary"><i class="fas fa-whatsapp me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+ <b> <div class="text-center p-4 " style="background-image: linear-gradient(10deg, #efd855,#f6a636)">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold text-light" style="color: #ffffff;font-weight:900;" href="https://mysweethome99.com/">Hardy.com</a>
+  </div>
+</b>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+</body>
+
+<!-- footer end  -->
+<script>
+(function () {
+  'use strict'
+
+  var forms = document.querySelectorAll('.needs-validation')
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+ <!-- jqcdn -->
+ <script src="jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+    let email = document.getElementById("#email").val();
+    let mobile = document.getElementById("#mobile").val();
+    let  alert
+    function mysubmit(){
+    $("#submit").click(function(){
+    alert = '<div class="alert alert-success" role="alert"> </div>';
+    return  alert(alert);
+
+});
+
+    }
+    mysubmit();
+
+});
+</script>
+ 
+  <!-- bootstrap cdn  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
